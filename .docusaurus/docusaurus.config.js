@@ -324,7 +324,7 @@ export default {
   "noIndex": false
 };
 module.exports = {
-  url: 'https://leisurecoop-docs.netlify.com', // Url to your site with no trailing slash
+  url: 'https://leisurecoop-docs.netlify.app', // Url to your site with no trailing slash
   baseUrl: '/', // Base directory of your site relative to your repo
   // ...
 };
