@@ -1,0 +1,23 @@
+{
+  "unversionedId": "overview",
+  "id": "overview",
+  "isDocsHomePage": false,
+  "title": "Overview",
+  "description": "Intro",
+  "source": "@site/docs/overview.md",
+  "sourceDirName": ".",
+  "slug": "/overview",
+  "permalink": "/docs/overview",
+  "editUrl": "https://github.com/computingcoop/leisurecoop-docs/docs/overview.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "next": {
+    "title": "Articles of Association",
+    "permalink": "/docs/articles"
+  }
+}

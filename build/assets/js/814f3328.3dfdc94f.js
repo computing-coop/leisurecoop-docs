@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkleisure_coop=self.webpackChunkleisure_coop||[]).push([[535],{5641:function(e){e.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"Founding the Cooperative","permalink":"/blog/founding"}]}')}}]);

@@ -1,0 +1,23 @@
+{
+  "unversionedId": "bylaws",
+  "id": "bylaws",
+  "isDocsHomePage": false,
+  "title": "Bylaws",
+  "description": "Mission",
+  "source": "@site/docs/bylaws.md",
+  "sourceDirName": ".",
+  "slug": "/bylaws",
+  "permalink": "/docs/bylaws",
+  "editUrl": "https://github.com/computingcoop/leisurecoop-docs/docs/bylaws.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Articles of Association",
+    "permalink": "/docs/articles"
+  }
+}

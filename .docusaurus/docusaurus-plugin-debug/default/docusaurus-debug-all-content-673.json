@@ -1,0 +1,211 @@
+{
+  "docusaurus-plugin-content-docs": {
+    "default": {
+      "loadedVersions": [
+        {
+          "versionName": "current",
+          "versionLabel": "Next",
+          "versionPath": "/docs",
+          "tagsPath": "/docs/tags",
+          "versionEditUrl": "https://github.com/computingcoop/leisurecoop-docs/docs",
+          "versionEditUrlLocalized": "https://github.com/computingcoop/leisurecoop-docs/i18n/en/docusaurus-plugin-content-docs/current",
+          "versionBanner": null,
+          "versionBadge": false,
+          "versionClassName": "docs-version-current",
+          "isLast": true,
+          "routePriority": -1,
+          "sidebarFilePath": "/Users/buffalojunior/Documents/GitHub/leisure-coop-docs/sidebars.js",
+          "contentPath": "/Users/buffalojunior/Documents/GitHub/leisure-coop-docs/docs",
+          "contentPathLocalized": "/Users/buffalojunior/Documents/GitHub/leisure-coop-docs/i18n/en/docusaurus-plugin-content-docs/current",
+          "mainDocId": "overview",
+          "sidebars": {
+            "tutorialSidebar": [
+              {
+                "type": "doc",
+                "id": "overview"
+              },
+              {
+                "type": "doc",
+                "id": "articles"
+              },
+              {
+                "type": "doc",
+                "id": "bylaws"
+              }
+            ]
+          },
+          "docs": [
+            {
+              "unversionedId": "articles",
+              "id": "articles",
+              "isDocsHomePage": false,
+              "title": "Articles of Association",
+              "description": "This work, \"Leisure Cooperative Articles of Association\", works as the operating agreement for Leisure Cooperative and is a derivative of \"Articles of Association\" by vitamin-b.ch, use permissable under CC BY-SA 4.0.",
+              "source": "@site/docs/articles.md",
+              "sourceDirName": ".",
+              "slug": "/articles",
+              "permalink": "/docs/articles",
+              "editUrl": "https://github.com/computingcoop/leisurecoop-docs/docs/articles.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 2,
+              "frontMatter": {
+                "sidebar_position": 2
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Overview",
+                "permalink": "/docs/overview"
+              },
+              "next": {
+                "title": "Bylaws",
+                "permalink": "/docs/bylaws"
+              }
+            },
+            {
+              "unversionedId": "bylaws",
+              "id": "bylaws",
+              "isDocsHomePage": false,
+              "title": "Bylaws",
+              "description": "Mission",
+              "source": "@site/docs/bylaws.md",
+              "sourceDirName": ".",
+              "slug": "/bylaws",
+              "permalink": "/docs/bylaws",
+              "editUrl": "https://github.com/computingcoop/leisurecoop-docs/docs/bylaws.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 3,
+              "frontMatter": {
+                "sidebar_position": 3
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Articles of Association",
+                "permalink": "/docs/articles"
+              }
+            },
+            {
+              "unversionedId": "overview",
+              "id": "overview",
+              "isDocsHomePage": false,
+              "title": "Overview",
+              "description": "Intro",
+              "source": "@site/docs/overview.md",
+              "sourceDirName": ".",
+              "slug": "/overview",
+              "permalink": "/docs/overview",
+              "editUrl": "https://github.com/computingcoop/leisurecoop-docs/docs/overview.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1
+              },
+              "sidebar": "tutorialSidebar",
+              "next": {
+                "title": "Articles of Association",
+                "permalink": "/docs/articles"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "docusaurus-plugin-content-blog": {
+    "default": {
+      "blogSidebarTitle": "Recent posts",
+      "blogPosts": [
+        {
+          "id": "founding",
+          "metadata": {
+            "permalink": "/blog/founding",
+            "editUrl": "https://github.com/computingcoop/leisurecoops-docs/blog/2019-05-28-first-blog-post.md",
+            "source": "@site/blog/2019-05-28-first-blog-post.md",
+            "title": "Founding the Cooperative",
+            "description": "Talking about spending more time together.",
+            "date": "2019-05-28T00:00:00.000Z",
+            "formattedDate": "May 28, 2019",
+            "tags": [
+              {
+                "label": "blog",
+                "permalink": "/blog/tags/blog"
+              },
+              {
+                "label": "leisuretalk",
+                "permalink": "/blog/tags/leisuretalk"
+              }
+            ],
+            "truncated": false,
+            "authors": [
+              {
+                "name": "Asher Caplan",
+                "title": "Founding Member",
+                "url": "https://github.com/computingcoop",
+                "image_url": "https://github.com/computingcoop.png",
+                "imageURL": "https://github.com/computingcoop.png"
+              }
+            ]
+          },
+          "content": "Talking about spending more time together."
+        }
+      ],
+      "blogListPaginated": [
+        {
+          "metadata": {
+            "permalink": "/blog",
+            "page": 1,
+            "postsPerPage": 10,
+            "totalPages": 1,
+            "totalCount": 1,
+            "previousPage": null,
+            "nextPage": null,
+            "blogDescription": "Blog",
+            "blogTitle": "Blog"
+          },
+          "items": [
+            "founding"
+          ]
+        }
+      ],
+      "blogTags": {
+        "/blog/tags/blog": {
+          "name": "blog",
+          "items": [
+            "founding"
+          ],
+          "permalink": "/blog/tags/blog"
+        },
+        "/blog/tags/leisuretalk": {
+          "name": "leisuretalk",
+          "items": [
+            "founding"
+          ],
+          "permalink": "/blog/tags/leisuretalk"
+        }
+      },
+      "blogTagsListPath": "/blog/tags"
+    }
+  },
+  "docusaurus-plugin-content-pages": {
+    "default": [
+      {
+        "type": "mdx",
+        "permalink": "/finances",
+        "source": "@site/src/pages/finances.md"
+      },
+      {
+        "type": "jsx",
+        "permalink": "/",
+        "source": "@site/src/pages/index.js"
+      }
+    ]
+  },
+  "docusaurus-plugin-debug": {
+    "default": null
+  },
+  "docusaurus-theme-classic": {
+    "default": null
+  }
+}

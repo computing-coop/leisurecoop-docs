@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://docs.leisure.coop/blog</id>
+    <title>Leisure Cooperative Blog</title>
+    <updated>2019-05-28T00:00:00.000Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://docs.leisure.coop/blog"/>
+    <subtitle>Leisure Cooperative Blog</subtitle>
+    <icon>https://docs.leisure.coop/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[Founding the Cooperative]]></title>
+        <id>founding</id>
+        <link href="https://docs.leisure.coop/blog/founding"/>
+        <updated>2019-05-28T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Talking about spending more time together.]]></summary>
+        <content type="html"><![CDATA[<p>Talking about spending more time together.</p>]]></content>
+        <author>
+            <name>Asher Caplan</name>
+            <uri>https://github.com/computingcoop</uri>
+        </author>
+    </entry>
+</feed>

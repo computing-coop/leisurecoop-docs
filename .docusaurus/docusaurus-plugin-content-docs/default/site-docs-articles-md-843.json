@@ -1,0 +1,27 @@
+{
+  "unversionedId": "articles",
+  "id": "articles",
+  "isDocsHomePage": false,
+  "title": "Articles of Association",
+  "description": "This work, \"Leisure Cooperative Articles of Association\", works as the operating agreement for Leisure Cooperative and is a derivative of \"Articles of Association\" by vitamin-b.ch, use permissable under CC BY-SA 4.0.",
+  "source": "@site/docs/articles.md",
+  "sourceDirName": ".",
+  "slug": "/articles",
+  "permalink": "/docs/articles",
+  "editUrl": "https://github.com/computingcoop/leisurecoop-docs/docs/articles.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Overview",
+    "permalink": "/docs/overview"
+  },
+  "next": {
+    "title": "Bylaws",
+    "permalink": "/docs/bylaws"
+  }
+}
