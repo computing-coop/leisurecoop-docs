@@ -1,12 +1,12 @@
 ---
-slug: first-blog-post
-title: First Blog Post
+slug: founding
+title: Founding the Cooperative
 authors:
-  name: Gao Wei
-  title: Docusaurus Core Team
-  url: https://github.com/wgao19
-  image_url: https://github.com/wgao19.png
-tags: [hola, docusaurus]
+  name: Asher Caplan
+  title: Founding Member
+  url: https://github.com/computingcoop
+  image_url: https://github.com/computingcoop.png
+tags: [blog, leisuretalk]
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet
+Talking about spending more time together.

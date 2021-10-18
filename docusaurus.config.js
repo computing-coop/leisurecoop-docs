@@ -7,7 +7,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Leisure Cooperative',
-  tagline: 'Documentation for Leisure Sharing Marketplace',
+  tagline: 'Documentation Website',
   url: 'https://docs.leisure.coop',
   baseUrl: '/',
   onBrokenLinks: 'throw',
@@ -24,13 +24,13 @@ const config = {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
-          editUrl: 'https://github.com/facebook/docusaurus/edit/main/website/',
+          editUrl: 'https://github.com/computingcoop/leisurecoop-docs',
         },
         blog: {
-          showReadingTime: true,
+          showReadingTime: false,
           // Please change this to your repo.
           editUrl:
-            'https://github.com/facebook/docusaurus/edit/main/website/blog/',
+            'https://github.com/computingcoop/leisurecoops-docs',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -43,24 +43,19 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'My Site',
+        title: 'Leisure Cooperative',
         logo: {
-          alt: 'My Site Logo',
+          alt: 'Leisure Cooperative Logo',
           src: 'img/logo.svg',
         },
         items: [
           {
             type: 'doc',
-            docId: 'intro',
+            docId: 'articles',
             position: 'left',
-            label: 'Tutorial',
+            label: 'Operation',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
-          {
-            href: 'https://github.com/facebook/docusaurus',
-            label: 'GitHub',
-            position: 'right',
-          },
+          {to: '/finances', label: 'Finances', position: 'left'},
         ],
       },
       footer: {
@@ -70,8 +65,12 @@ const config = {
             title: 'Docs',
             items: [
               {
-                label: 'Tutorial',
-                to: '/docs/intro',
+                label: 'Operation',
+                to: '/docs/articles',
+              },
+              {
+                label: 'Finances',
+                to: '/docs/finances',
               },
             ],
           },
@@ -79,16 +78,16 @@ const config = {
             title: 'Community',
             items: [
               {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+                label: 'Are.na',
+                href: 'https://are.na/leisure-cooperative',
               },
               {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
+                label: 'Signal',
+                href: 'https://signal.group/#CjQKIIhjb0bblB6Ntvo8avESQgCJz1C4MVgSGlpXrojP00XaEhBXsyjpfJ4OI_dgJMoiTs5s',
               },
               {
-                label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
+                label: 'Mastodon',
+                href: 'https://mastodon.green/web/accounts/31938',
               },
             ],
           },
@@ -96,17 +95,13 @@ const config = {
             title: 'More',
             items: [
               {
-                label: 'Blog',
-                to: '/blog',
-              },
-              {
-                label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                label: 'Leisure Cooperative Home',
+                href: 'https://leisure.coop',
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Leisure Cooperative, Built with Docusaurus.`,
       },
       prism: {
         theme: lightCodeTheme,
