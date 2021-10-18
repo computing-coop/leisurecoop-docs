@@ -323,3 +323,8 @@ export default {
   "titleDelimiter": "|",
   "noIndex": false
 };
+module.exports = {
+  url: 'https://leisurecoop-docs.netlify.com', // Url to your site with no trailing slash
+  baseUrl: '/', // Base directory of your site relative to your repo
+  // ...
+};
