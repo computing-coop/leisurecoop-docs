@@ -10,7 +10,7 @@ const config = {
   tagline: 'Documentation Website',
   url: 'https://docs.leisure.coop',
   baseUrl: '/',
-  onBrokenLinks: 'throw',
+  onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
   organizationName: 'computing-coop', // Usually your GitHub org/user name.
