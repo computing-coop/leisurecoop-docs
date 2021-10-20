@@ -66,7 +66,7 @@ const config = {
             items: [
               {
                 label: 'Operation',
-                to: '/docs/articles',
+                to: '/docs/theco-op/articles',
               },
               {
                 label: 'Finances',
